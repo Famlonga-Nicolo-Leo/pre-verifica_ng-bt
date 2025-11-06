@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-casella-posta',
@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './casella-posta.css',
 })
 export class CasellaPosta {
+  lettere = ["lettere1","lettere2","lettere3","lettere4","lettere5","lettere6","lettere8"]
 
+   @Input() name!: string;
+   ngOnInit() {}
 }
