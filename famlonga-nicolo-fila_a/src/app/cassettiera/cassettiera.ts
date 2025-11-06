@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { CasellaPosta } from '../casella-posta/casella-posta';
 
 @Component({
   selector: 'app-cassettiera',
-  imports: [],
+  imports: [CasellaPosta],
   templateUrl: './cassettiera.html',
   styleUrl: './cassettiera.css',
 })
