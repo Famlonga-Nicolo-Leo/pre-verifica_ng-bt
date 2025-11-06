@@ -1,5 +1,6 @@
 <ul>
     @for (i of lista; track i) {
-            <li><p>casella postale di: </p><app-casella-posta [name]="i"></app-casella-posta></li>
+            <app-casella-posta [name]="i"></app-casella-posta>
+            
     }
   </ul>
